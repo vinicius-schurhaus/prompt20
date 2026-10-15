@@ -1,0 +1,47 @@
+{
+    "human": {
+        "name": {
+            "en": "Human",
+            "pt": "Humano"
+        },
+        "attribute_bonus": {
+            "strength": 1
+        }
+    },
+    "elf": {
+        "name": {
+            "en": "Elf",
+            "pt": "Elfo"
+        },
+        "attribute_bonus": {
+            "intelligence": 1
+        }
+    },
+    "dwarf": {
+        "name": {
+            "en": "Dwarf",
+            "pt": "Anão"
+        },
+        "attribute_bonus": {
+            "strength": 1
+        }
+    },
+    "orc": {
+        "name": {
+            "en": "Orc",
+            "pt": "Orc"
+        },
+        "attribute_bonus": {
+            "strength": 1
+        }
+    },
+    "halfling": {
+        "name": {
+            "en": "Halfling",
+            "pt": "Halfling"
+        },
+        "attribute_bonus": {
+            "agility": 1
+        }
+    }
+}

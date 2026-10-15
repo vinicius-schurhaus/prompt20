@@ -1,0 +1,38 @@
+{
+    "warrior": {
+        "name": {
+            "en": "Warrior",
+            "pt": "Guerreiro"
+        },
+        "health": 12,
+        "attributes": {
+            "strength": 3,
+            "intelligence": 1,
+            "agility": 2
+        }
+    },
+    "mage": {
+        "name": {
+            "en": "Mage",
+            "pt": "Mago"
+        },
+        "health": 8,
+        "attributes": {
+            "strength": 1,
+            "intelligence": 3,
+            "agility": 2
+        }
+    },
+    "rogue": {
+        "name": {
+            "en": "Rogue",
+            "pt": "Ladino"
+        },
+        "health": 10,
+        "attributes": {
+            "strength": 2,
+            "intelligence": 2,
+            "agility": 3
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "",
+    "backstory": "",
+    "race": "",
+    "class": "",
+    "level": 1,
+    "health": 0,
+    "attributes": {
+        "strength": 0,
+        "intelligence": 0,
+        "agility": 0
+    },
+    "inventory": [],
+    "language": "pt"
+}
