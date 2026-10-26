@@ -1,26 +1,16 @@
 # Prompt20
 
-Prompt20 is a text-based RPG powered by AI. It uses an AI game master to narrate adventures, manage characters, resolve dice rolls, and save campaign progress.
+Prompt20 is an AI-powered, text-based RPG where an AI game master narrates adventures, manages characters, and tracks campaign progress.
 
-## Features
+## Motivation
 
-- Character creation with different races and classes.
-- AI-powered storytelling.
-- Dice rolls for uncertain actions.
-- Character and campaign state management.
-- Save and resume campaigns.
-- English and Portuguese language support.
+AI can hallucinate story details and produce non-random dice rolls, making RPG outcomes unreliable. Prompt20 aims to make gameplay more consistent by using actual dice rolls through a tool and saving campaign state to maintain continuity.
 
-## Requirements
+## Quick Start
 
-- Python 3.12 or later.
-- [uv](https://docs.astral.sh/uv/)
-- An OpenRouter API key.
-
-## Setup
+**Requirements:** Python 3.12+, [uv](https://docs.astral.sh/uv/), and an [OpenRouter API key](https://openrouter.ai/).
 
 1. Clone the repository and enter the project directory.
-
 2. Install dependencies:
 
    ```bash
@@ -33,32 +23,32 @@ Prompt20 is a text-based RPG powered by AI. It uses an AI game master to narrate
    OPENROUTER_API_KEY=your_api_key_here
    ```
 
-   Get an API key at [OpenRouter](https://openrouter.ai/).
+4. Start the game:
 
-## Run
+   ```bash
+   uv run main.py
+   ```
 
-Start the game with:
+## Usage
 
-```bash
-uv run main.py
-```
+Follow the prompts to select a language and create your character by choosing a name, race, class, and backstory.
 
-Follow the prompts to create your character and start your adventure.
+Once the adventure begins, describe your character's actions in the terminal. The AI game master narrates the story and uses dice rolls when outcomes are uncertain. Your campaign progress is saved when you exit, allowing you to continue later.
 
-## Tests
-
-Run the test suite with:
-
-```bash
-uv run pytest
-```
-
-## Reset
-
-To reset the character and campaign data, run:
+To reset your character and campaign data, run:
 
 ```bash
 uv run reset_game.py
 ```
 
-**Warning:** This will clear the saved character and campaign state.
+**Warning:** This clears the saved character and campaign state.
+
+## Contributing
+
+Contributions are welcome. To get started:
+
+1. Fork the repository and create a branch for your changes.
+2. Install dependencies with `uv sync`.
+3. Run the project with `uv run main.py`.
+4. Run tests with `uv run pytest`.
+5. Submit a pull request describing your changes.
